@@ -12,7 +12,8 @@ function createWindow () {
     height: 600,
     fullscreen: true,
     titleBarStyle: 'hidden',
-    autoHideMenuBar: true
+    autoHideMenuBar: true,
+    backgroundColor: '#f5f5f5'
   })
 
   // carrega a index.html do app.
