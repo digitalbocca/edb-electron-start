@@ -1,0 +1,16 @@
+{
+  "name": "electron-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "standard": "^12.0.1"
+  }
+}
