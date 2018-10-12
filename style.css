@@ -1,11 +1,18 @@
 /**
+ * edb-electron-start
+ *
  * (c)2018 - Estúdio Digital Bocca
  */
 
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 body, html {
-  background-color: #ecf0f1;
+  /* Flat UI Colors - Normal */
+  /* background-color: #ecf0f1; */
+
+  /* Flat UI Colors - GB Palette */
+  background-color: #f5f6fa;
+  
   font-family: 'Titillium Web', sans-serif;
   margin: 0;
   min-height: 100vh;

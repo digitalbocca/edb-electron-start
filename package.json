@@ -1,14 +1,14 @@
 {
-  "name": "electron-starter",
-  "version": "1.0.0",
-  "description": "",
+  "name": "edb-electron-starter",
+  "version": "0.3.0",
+  "description": "Template para electron.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^3.0.4",
     "standard": "^12.0.1"
