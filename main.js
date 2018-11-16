@@ -31,12 +31,12 @@ function createWindow () {
   })
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
+// Este método é chamado quando o Electron terminar a inicialização
+// e estiver pronto para criar a janela.
+// Algumas APIs só podem ser usadas depois da ocorrencia deste evento.
 app.on('ready', createWindow)
 
-// Quit when all windows are closed.
+// Encerrar quando todas as janelas forem fechadas.
 app.on('window-all-closed', () => {
   // On OS X it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
@@ -53,5 +53,5 @@ app.on('activate', () => {
   }
 })
 
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
+// Neste arquivo você pode incluir todo o código do seu processo principal.
+// Você também pode escrever em arquivos separados e incluir (com require()) aqui.
