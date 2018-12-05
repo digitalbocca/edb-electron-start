@@ -5,7 +5,7 @@ const { app, BrowserWindow } = require('electron')
 // fechará automaticamente quando o JavaScript for coletado pelo coletor de lixo.
 let mainWindow
 
-function createWindow () {
+const createWindow = () => {
   // Cria a janela do browser.
   mainWindow = new BrowserWindow({
     width: 800,
