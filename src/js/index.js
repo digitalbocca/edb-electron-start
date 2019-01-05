@@ -15,11 +15,13 @@
 
 import Vue from 'vue'
 import App from './../components/App'
+import store from './../store'
 
 console.log('©2019 - Estúdio Digital Bocca')
 
 Vue.config.productionTip = false
 
 window.vm = new Vue({
+  store,
   render: h => h(App)
 }).$mount('#app')

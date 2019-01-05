@@ -21,6 +21,10 @@
 
 ## LOG DE MUDANÇAS
 
+### Mudanças na v0.7.0
+
+- Criada store do vuex.
+
 ### Mudanças na v0.6.0
 
 - Template utiliza PUG.
