@@ -1,12 +1,35 @@
 # edb-electron-start
 
-## v0.5.0
+## v0.6.0
 
 ### Estúdio Digital Bocca
 
 > Um template para iniciar com electron.
 
+## CARACTERÍSTICAS
+
+- Electron 4+
+- Estrutura pronta de pastas.
+- Scripts NPM configurados.
+- Pré compilação com Parcel Bundler.
+- Sass.
+- Vue, Vuex, Vue-Router. (Aguardando Implementação)
+- Template dos arquivos .vue com PUG.
+- Axios para a comunicação com o servidor embutido. (Aguardando Implementação)
+- Servidor express embutido. (Aguardando Implementação)
+- Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
+
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.6.0
+
+- Template utiliza PUG.
+- Criado App.vue.
+- Criado script prestart para executar o bundler.
+- CSS convertido em SASS.
+- Separação dos arquivos em pastas.
+- Melhoria na documentação.
+- Atualização de dependências.
 
 ### Mudanças na v0.5.0
 
@@ -18,4 +41,4 @@
 - Tradução de alguns comentários no main.js.
 - Atualização de dependências.
 
-> (c)2018 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br/>
+> (c)2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br/>
