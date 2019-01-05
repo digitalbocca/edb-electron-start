@@ -3,7 +3,7 @@
 /**
  * edb-electron-start
  *
- * @file index.js
+ * @file getters.js
  * @description Getters da store do Vuex.
  *
  * @copyright (c)2019 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/

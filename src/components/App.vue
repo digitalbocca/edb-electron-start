@@ -1,17 +1,18 @@
 <template lang="pug">
   .container#app
     h1.text-center EDB Electron Start
-    p.text-center {{ info }}
+    edb-menu
+    router-view/
 </template>
 
 <script>
 
-import { mapGetters } from 'vuex'
+import EdbMenu from './EdbMenu'
 
 export default {
   name: 'App',
-  computed: {
-    ...mapGetters(['info'])
+  components: {
+    EdbMenu
   }
 }
 </script>

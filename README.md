@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.6.0
+## v0.8.0
 
 ### Estúdio Digital Bocca
 
@@ -13,13 +13,21 @@
 - Scripts NPM configurados.
 - Pré compilação com Parcel Bundler.
 - Sass.
-- Vue, Vuex, Vue-Router. (Aguardando Implementação)
+- Vue, Vuex, Vue-Router.
 - Template dos arquivos .vue com PUG.
 - Axios para a comunicação com o servidor embutido. (Aguardando Implementação)
 - Servidor express embutido. (Aguardando Implementação)
 - Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.8.0
+
+- Configurado vue-router.
+- Criado componente Config.
+- Criado componente EdbMenu.
+- Criado componente Contato.
+- Criado componente Home.
 
 ### Mudanças na v0.7.0
 
