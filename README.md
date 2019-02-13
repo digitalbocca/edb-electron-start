@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.8.0
+## v0.9.0
 
 ### Estúdio Digital Bocca
 
@@ -16,10 +16,16 @@
 - Vue, Vuex, Vue-Router.
 - Template dos arquivos .vue com PUG.
 - Axios para a comunicação com o servidor embutido. (Aguardando Implementação)
-- Servidor express embutido. (Aguardando Implementação)
+- Servidor express embutido.
 - Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.9.0
+
+- Implementado servidor express na porta 1985.
+- HTML migrado para PUG.
+- Atualização de dependências.
 
 ### Mudanças na v0.8.0
 

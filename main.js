@@ -55,3 +55,5 @@ app.on('activate', () => {
 
 // Neste arquivo você pode incluir todo o código do seu processo principal.
 // Você também pode escrever em arquivos separados e incluir (com require()) aqui.
+
+require('./src/server')

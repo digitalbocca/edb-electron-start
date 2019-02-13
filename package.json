@@ -1,10 +1,10 @@
 {
   "name": "edb-electron-start",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Template para electron.",
   "main": "main.js",
   "scripts": {
-    "prestart": "parcel build ./src/index.html -d ./dist --public-url ./ --no-source-maps --no-cache",
+    "prestart": "parcel build ./src/index.pug -d ./dist --public-url ./ --no-source-maps --no-cache",
     "start": "electron ."
   },
   "keywords": [
@@ -15,19 +15,21 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "MIT",
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.4.0",
-    "electron": "^4.0.1",
+    "@vue/component-compiler-utils": "^2.5.2",
+    "electron": "^4.0.4",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-clean-dist": "0.0.6",
     "pug": "^2.0.3",
-    "sass": "^1.15.3",
+    "sass": "^1.17.0",
     "standard": "^12.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.6"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "vue": "^2.5.21",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "vue": "^2.6.6",
     "vue-router": "^3.0.2",
-    "vuex": "^3.0.1"
+    "vuex": "^3.1.0"
   }
 }
