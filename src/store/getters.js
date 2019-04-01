@@ -10,11 +10,14 @@
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
  * @since v0.7.0
- * @version v1.0.0
+ * @version v2.0.0
  */
 
 export default {
   info (state) {
     return state.info
+  },
+  backendInfo (state) {
+    return state.backendInfo
   }
 }

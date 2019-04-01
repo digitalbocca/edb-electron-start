@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.9.0
+## v0.10.0
 
 ### Estúdio Digital Bocca
 
@@ -15,11 +15,17 @@
 - Sass.
 - Vue, Vuex, Vue-Router.
 - Template dos arquivos .vue com PUG.
-- Axios para a comunicação com o servidor embutido. (Aguardando Implementação)
+- Axios para a comunicação com o servidor embutido.
 - Servidor express embutido.
 - Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.10.0
+
+- Implementada chamada para o backend com axios.
+- Configuração de portas está no arquivo .env.
+- Atualização de dependências.
 
 ### Mudanças na v0.9.0
 

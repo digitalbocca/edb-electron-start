@@ -10,9 +10,12 @@
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
  * @since v0.7.0
- * @version v1.0.0
+ * @version v2.0.0
  */
 
 export default {
-  info: 'Esta informação está sendo carregada diretamente da store do vuex.'
+  info: 'Esta informação está sendo carregada diretamente da store do vuex.',
+  backendInfo: {
+    loading: true
+  }
 }
