@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.10.0
+## v0.11.0
 
 ### Estúdio Digital Bocca
 
@@ -20,6 +20,10 @@
 - Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.10.0
+
+- Atualização de dependências.
 
 ### Mudanças na v0.10.0
 
