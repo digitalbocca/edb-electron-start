@@ -10,15 +10,18 @@
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
  * @since v0.7.0
- * @version v2.0.0
+ * @version v3.0.0
  */
 
 import axios from 'axios'
 
 export default {
-  loadBackendInfo (context) {
-    axios.get('http://localhost:1985')
-      .then(response => context.commit('BACKEND_INFO', response.data))
-      .catch(err => console.log(err))
+  async loadBackendInfo (context) {
+    try {
+      const response = (await axios.get('http://localhost:1985')).data
+      context.commit('BACKEND_INFO', response)
+    } catch (e) {
+      console.log(e.message)
+    }
   }
 }

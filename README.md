@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.12.0
+## v0.13.0
 
 ### Estúdio Digital Bocca
 
@@ -8,7 +8,7 @@
 
 ## CARACTERÍSTICAS
 
-- Electron 5+
+- Electron 6+
 - Estrutura pronta de pastas.
 - Scripts NPM configurados.
 - Pré compilação com Parcel Bundler.
@@ -20,6 +20,11 @@
 - Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.13.0
+
+- Configurado regenerator runtime do babel 7.
+- Atualização de dependências.
 
 ### Mudanças na v0.12.0
 
