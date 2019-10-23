@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.13.0
+## v0.14.0
 
 ### Estúdio Digital Bocca
 
@@ -8,7 +8,7 @@
 
 ## CARACTERÍSTICAS
 
-- Electron 6+
+- Electron 7+
 - Estrutura pronta de pastas.
 - Scripts NPM configurados.
 - Pré compilação com Parcel Bundler.
@@ -17,9 +17,14 @@
 - Template dos arquivos .vue com PUG.
 - Axios para a comunicação com o servidor embutido.
 - Servidor express embutido.
-- Banco de dados JSON (lowdb) para guardar configurações. (Aguardando Implementação)
+- Banco de dados JSON (lowdb) para guardar configurações.
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.14.0
+
+- Implementado lowdb para guardar as configurações.
+- Atualização de dependências.
 
 ### Mudanças na v0.13.0
 
