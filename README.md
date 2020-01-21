@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.14.0
+## v0.15.0
 
 ### Estúdio Digital Bocca
 
@@ -20,6 +20,20 @@
 - Banco de dados JSON (lowdb) para guardar configurações.
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.15.0
+
+- Trocado plugin que limpa a pasta dist.
+- Correção no CHANGELOG.
+- Atualização de dependências.
+
+### Mudanças na v0.14.2
+
+- Merge pull request #1 from digitalbocca/dependabot/npm_and_yarn/serialize-to-js-3.0.1.
+
+### Mudanças na v0.14.1
+
+- Bump serialize-to-js from 3.0.0 to 3.0.1.
 
 ### Mudanças na v0.14.0
 
@@ -83,4 +97,4 @@
 - Tradução de alguns comentários no main.js.
 - Atualização de dependências.
 
-> (c)2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br/>
+> (c)2018-2020 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br/>
