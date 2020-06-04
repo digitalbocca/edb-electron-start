@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.15.0
+## v0.16.0
 
 ### Estúdio Digital Bocca
 
@@ -8,7 +8,7 @@
 
 ## CARACTERÍSTICAS
 
-- Electron 7+
+- Electron 9+
 - Estrutura pronta de pastas.
 - Scripts NPM configurados.
 - Pré compilação com Parcel Bundler.
@@ -20,6 +20,10 @@
 - Banco de dados JSON (lowdb) para guardar configurações.
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.16.0
+
+- Atualização de dependências.
 
 ### Mudanças na v0.15.0
 
