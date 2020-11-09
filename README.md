@@ -1,6 +1,6 @@
 # edb-electron-start
 
-## v0.17.0
+## v0.18.0
 
 ### Estúdio Digital Bocca
 
@@ -11,15 +11,19 @@
 - Electron 10+
 - Estrutura pronta de pastas.
 - Scripts NPM configurados.
-- Pré compilação com Parcel Bundler.
+- Pré compilação com Parcel Bundler (v1).
 - Sass.
-- Vue, Vuex, Vue-Router.
+- Vue, Vuex, Vue-Router (v2).
 - Template dos arquivos .vue com PUG.
 - Axios para a comunicação com o servidor embutido.
 - Servidor express embutido.
 - Banco de dados JSON (lowdb) para guardar configurações.
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.18.0
+
+- Atualização de dependências.
 
 ### Mudanças na v0.17.0
 
