@@ -1,10 +1,21 @@
-# edb-electron-start
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v0.20.0</p>
+  <h1 align="center">edb-electron-start</h1>
+  <h4 align="center">
+    Template para iniciar com Electron
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v0.20.0/orange">
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## v0.19.0
+---
 
-### Estúdio Digital Bocca
+# edb-electron-start - README
 
-> Um template para iniciar com electron.
+---
 
 ## CARACTERÍSTICAS
 
@@ -19,9 +30,25 @@
 - Servidor express embutido.
 - Banco de dados JSON (lowdb) para guardar configurações.
 
+## INSTRUÇÕES
+
+Utilize o create-edb-app:
+
+```bash
+npm init @digitalbocca/edb-app electron-start ./caminho/do/projeto
+```
+
+- Entre na pasta.
+- Instale as dependências.
+- Modifique para sua necessidade.
+
 ## LOG DE MUDANÇAS
 
-### Mudanças na v0.18.0
+### Mudanças na v0.20.0
+
+- Arquivos markdown seguem o padrão EDB2020.
+
+### Mudanças na v0.19.0
 
 - Branch principal trocada para main.
 - Atualização de dependências.

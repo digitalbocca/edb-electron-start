@@ -1,6 +1,6 @@
 {
   "name": "edb-electron-start",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "description": "Template para electron.",
   "main": "main.js",
   "scripts": {
