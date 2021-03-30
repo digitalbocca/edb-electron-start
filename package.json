@@ -1,6 +1,6 @@
 {
   "name": "edb-electron-start",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Template para electron.",
   "main": "main.js",
   "scripts": {
@@ -18,26 +18,26 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
     "@vue/component-compiler-utils": "^3.2.0",
-    "electron": "^11.0.1",
+    "electron": "^12.0.2",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
-    "pug": "^3.0.0",
-    "sass": "^1.29.0",
+    "pug": "^3.0.2",
+    "sass": "^1.32.8",
     "standard": "^16.0.3",
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "epic-spinners": "^1.1.0",
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
     "vue": "^2.6.12",
-    "vue-router": "^3.4.9",
-    "vuex": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   }
 }
