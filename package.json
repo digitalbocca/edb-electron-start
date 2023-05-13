@@ -1,9 +1,10 @@
 {
   "name": "edb-electron-start",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "Template para electron.",
   "main": "main.js",
   "scripts": {
+    "check-updates": "ncu > ./update-report.txt && node update-report-format.mjs",
     "prestart": "parcel build ./src/index.pug -d ./dist --public-url ./ --no-source-maps --no-cache",
     "start": "electron ."
   },
@@ -21,7 +22,8 @@
     "@babel/core": "^7.13.14",
     "@babel/plugin-transform-runtime": "^7.13.10",
     "@vue/component-compiler-utils": "^3.2.0",
-    "electron": "^23.1.4",
+    "electron": "^24.3.0",
+    "npm-check-updates": "^16.10.12",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
     "pug": "^3.0.2",
@@ -34,7 +36,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "epic-spinners": "^1.1.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "lowdb": "^1.0.0",
     "vue": "^2.6.12",
     "vue-router": "^3.5.1",
