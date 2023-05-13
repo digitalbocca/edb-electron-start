@@ -1,14 +1,13 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.21.0</p>
   <h1 align="center">edb-electron-start</h1>
   <h4 align="center">
     Template para iniciar com Electron
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v0.21.0/orange">
+    <img src="https://badgen.net/badge/version/v0.22.0/orange">
   </p>
-  <p align="center">(c)2021 - Estúdio Digital Bocca</p>
+  <p align="center">(c)2023 - Estúdio Digital Bocca</p>
 </p>
 
 ---
@@ -19,7 +18,7 @@
 
 ## CARACTERÍSTICAS
 
-- Electron 12+
+- Electron 24+
 - Estrutura pronta de pastas.
 - Scripts NPM configurados.
 - Pré compilação com Parcel Bundler (v1).
@@ -43,6 +42,11 @@ npm init @digitalbocca/edb-app electron-start ./caminho/do/projeto
 - Modifique para sua necessidade.
 
 ## LOG DE MUDANÇAS
+
+### Mudanças na v0.22.0
+
+- Cria relatório de dependências desatualizadas.
+- Atualiza dependências.
 
 ### Mudanças na v0.21.0
 
